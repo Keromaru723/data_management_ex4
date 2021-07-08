@@ -11,4 +11,7 @@ int main(){
     total+=die[i];
   }
   printf("Total value:%2d\n",total);
+  
+  if(total>7)printf("You won!");
+  else printf("You lose");
 }
